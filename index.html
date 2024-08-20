@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+            <!-- <h2>Weather App</h2> -->
+            <div class="city">
+            <i class="fa-solid fa-location-dot"></i>
+             <select id="city">
+                    <option value="ChooseCity" selected>Choose City</option>
+                    <option value="Yangon">Yangon</option>
+                    <option value="Seoul">Seoul</option>
+                    <option value="Cape Town">Cape Town</option>
+                    <option value="Canberra">Canberra</option>
+                    <option value="London">London</option>
+             </select>
+            </div>
+            <div class="weather-info">
+                <p class="temperature">16<span>°C</span></p>
+                <p class="description">Broken Clouds</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                Humidity :<span>  0% </span>         
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                Wind Speed :<span>  0 Km/h</span>         
+                </div>
+            </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
